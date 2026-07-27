@@ -9,8 +9,8 @@
     <version>1.0</version>
 
     <name>${project.artifactId}</name>
-    <description>自定义PlaerholderAPI变量</description>
-    <url>https://github.com/DreamVoid/CustomPlaceholder</url>
+    <description>自定义PlaceholderAPI变量</description>
+    <url>https://github.com/windy664/CustomPlaceholder</url>
 
     <build>
         <finalName>${project.artifactId}</finalName>
@@ -42,7 +42,7 @@
         </repository>
         <repository>
             <id>placeholderapi</id>
-            <url>https://repo.extendedclip.com/content/repositories/placeholderapi/</url>
+            <url>https://repo.helpch.at/releases/</url>
         </repository>
     </repositories>
 
@@ -57,7 +57,7 @@
         <dependency>
             <groupId>me.clip</groupId>
             <artifactId>placeholderapi</artifactId>
-            <version>2.11.1</version>
+            <version>2.12.3</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>

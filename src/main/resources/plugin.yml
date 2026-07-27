@@ -5,14 +5,14 @@ main: me.dreamvoid.customplaceholder.main
 version: ${project.version}
 api-version: 1.13
 prefix: DreamVoidPlugin
-webside: ${project.url}
+website: ${project.url}
 commands:
   customplaceholder:
     description: CustomPlaceholder 插件主命令
     permission: customplaceholder.command
     aliases:
       - cp
-      - cplalceholder
+      - cplaceholder
 permissions:
   customplaceholder.command:
     description: Allow use /customplaceholder
